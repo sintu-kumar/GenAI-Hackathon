@@ -3,7 +3,6 @@ openai
 transformers
 streamlit
 pinecone-client
-PyAudio
 cchardet
 wave
 unstructured
