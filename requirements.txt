@@ -11,3 +11,5 @@ sentence_transformers
 faiss-cpu
 PyPDF2
 usellm
+gTTS
+playsound
