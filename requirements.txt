@@ -1,0 +1,12 @@
+langchain
+openai
+transformers
+streamlit
+pinecone-client
+PyAudio
+cchardet
+wave
+unstructured
+pdf2image
+sentence_transformers
+faiss-cpu
