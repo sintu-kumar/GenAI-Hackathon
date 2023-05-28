@@ -10,3 +10,4 @@ pdf2image
 sentence_transformers
 faiss-cpu
 PyPDF2
+usellm
