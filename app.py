@@ -185,12 +185,12 @@ if query:
     #prompt = PromptTemplate(template=prompt, input_variables=["query", "context"])
     response = usellm(prompt) #LLM_Response()
     st.write(response)
-    language = 'en'
+    # language = 'en'
     # Create a gTTS object
-    tts = gTTS(text=response, lang=language)
+    # tts = gTTS(text=response, lang=language)
     
     # Save the audio file
-    rand = random.randint(1, 10000)*random.randint(10001,20000)
-    audio_file = f'output{rand}.mp3'
-    tts.save(audio_file)
-    playsound(audio_file)
+    # rand = random.randint(1, 10000)*random.randint(10001,20000)
+    # audio_file = f'output{rand}.mp3'
+    # tts.save(audio_file)
+    # playsound(audio_file)
