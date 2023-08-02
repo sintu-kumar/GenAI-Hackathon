@@ -35,7 +35,7 @@ from langchain import PromptTemplate, LLMChain
 #from scipy.io.wavfile import write
 from usellm import Message, Options, UseLLM
 
-llm = OpenAI(model_name='text-davinci-003', temperature=0.2, max_tokens=512, openai_api_key='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')
+llm = OpenAI(model_name='text-davinci-003', temperature=0.2, max_tokens=512, openai_api_key='')
 
 def record_audio(filename):
     duration=5
