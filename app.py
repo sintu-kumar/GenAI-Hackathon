@@ -76,7 +76,7 @@ def usellm(prompt):
 @st.cache_resource
 def embed(model_name):
     hf_embeddings = HuggingFaceEmbeddings(model_name=model_name)
-    #embedding = OpenAIEmbeddings(openai_api_key='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')
+    #embedding = OpenAIEmbeddings(openai_api_key='')
     return hf_embeddings
 
 # @st.cache_resource
@@ -84,7 +84,7 @@ def embed(model_name):
 #     chain = load_summarize_chain(llm=_llm, chain_type="map_reduce")
 # chain = load_summarize_chain(llm=llm, chain_type="map_reduce")
 
-hf_embeddings = embed(model_name) #OpenAIEmbeddings(openai_api_key='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')
+hf_embeddings = embed(model_name) #OpenAIEmbeddings(openai_api_key='')
 
 # File Upload
 file = st.file_uploader("Upload a file")
